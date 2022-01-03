@@ -15,7 +15,5 @@ public class PhraseOMatic {
         String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
         System.out.println("Все, что нам нужно, - это " + phrase);
 
-        int x = (int) 29.7;
-        System.out.println(x);
     }
 }
