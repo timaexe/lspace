@@ -6,13 +6,13 @@ package JR.task0301;
 
 public class Solution {
     public static void main(String[] args) {
-        div(6, 3);
-        div(10, 6);
-        div(2, 4);
+        System.out.println(div(6, 3));
+       /* div(10, 6);
+        div(2, 4);*/
     }
 
-    public static void div(int a, int b) {
-        //напишите тут ваш код
+    public static double div(int a, int b) {
+        return (double) a/b;
 
     }
 }
